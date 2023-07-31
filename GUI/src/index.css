@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+@layer base {
+  div .judul{
+    @apply w-full h-screen bg-white overflow-hidden
+  }
+  span{
+    @apply text-black 
+  }
+  li {
+    @apply px-4;
+    @apply hover:text-zinc-400 drop-shadow-xl text-base font-poppins;
+  }
+
+  .homes span {
+    @apply font-poppins drop-shadow-lg;
+  }
+  .skills span {
+    
+  }
+  .contoh {
+    @apply inline-block w-56 h-96 flex-none drop-shadow-xl;
+
+  }
+}
