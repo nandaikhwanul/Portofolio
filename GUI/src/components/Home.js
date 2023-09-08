@@ -71,8 +71,8 @@ const Home = () => {
           <span className='text-lg tracking-normal font-[500]'>I am a dedicated professional in my field</span>
           <span className='text-lg tracking-normal font-[500] sm:mb-5'>with extensive experience in various fields.</span>
           <div className='flex gap-4'>
-          <button className='bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 w-44 pe-4 h-10 rounded-xl text-white text-base font-nunito font-medium tracking-wide relative hover:brightness-90 '><BsFillArrowDownCircleFill className='animate-bounce w-6 h-6 absolute right-1'/> DOWNLOAD CV</button>
-          <button className='bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 w-32 h-10 rounded-xl text-white text-base font-nunito font-medium tracking-wide relative hover:brightness-90  '><span className='animate-ping absolute inline-flex h-2 w-2 rounded-full bg-sky-700 opacity-100 right-1 top-0'></span><Link to="contact" smooth={true} duration={500}>CONTACT</Link></button>
+          <button className='bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 w-44 pe-4 h-10 rounded-xl text-white text-base font-nunito font-medium tracking-wide relative hover:brightness-90 outline-none'><BsFillArrowDownCircleFill className='animate-bounce w-6 h-6 absolute right-1'/> DOWNLOAD CV</button>
+          <button className='bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 w-32 h-10 rounded-xl text-white text-base font-nunito font-medium tracking-wide relative hover:brightness-90 outline-none'><span className='animate-ping absolute inline-flex h-2 w-2 rounded-full bg-sky-700 opacity-100 right-1 top-0'></span><Link to="contact" smooth={true} duration={500}>CONTACT</Link></button>
           
           </div>
       

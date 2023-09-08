@@ -5,22 +5,16 @@ import Project from "./components/Project";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import MoreProjects from "./components/MoreProject";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import MoreProjects from "./components/newPage/MoreProjects";
 
 function App() {
   return (
       <Router>
-        <Navbar />
-        <Home />
-        <About />
-        <Skills />
-        <Project />
-        <Contact />
         <Routes>
-        <Route path="/MoreProject" element={<MoreProjects />} />
+          <Route path="/" element={<><Navbar/><Home/><About/><Skills/><Project/><Contact/><Footer/></>}/>
+          <Route path="/moreProjects" element={<MoreProjects/>} />
         </Routes>
-        <Footer />
       </Router>
   );
 }

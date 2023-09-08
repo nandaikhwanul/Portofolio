@@ -7,8 +7,8 @@ const Contact = () => {
       <div className="icon bg-blue-600 text-white w-6 h-6 absolute flex items-center justify-center p-5" style={{ left: "-40px" }}>
         <i className="fal fa-phone-volume fa-fw text-2xl transform -rotate-45"></i>
       </div>
-      <h3 className="text-2xl text-gray-900 font-semibold">Let us call you!</h3>
-      <p className="text-gray-600">To help you choose your property</p>
+      <h3 className="text-2xl text-gray-900 font-semibold">Send me message!</h3>
+      <p className="text-gray-600">if you interest and need for your company</p>
       <div className="flex space-x-5 mt-3">
         <input type="text" name="" id="" placeholder="Your Name" className="border p-2 w-1/2 focus:outline-none focus:ring focus:ring-sky-300" />
         <input type="tel" name="" id="" placeholder="Your Number" className="border p-2 w-1/ focus:outline-none focus:ring focus:ring-sky-300" />
